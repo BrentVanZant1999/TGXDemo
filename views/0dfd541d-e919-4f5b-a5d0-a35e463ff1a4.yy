@@ -4,8 +4,7 @@
     "mvc": "1.1",
     "name": "0dfd541d-e919-4f5b-a5d0-a35e463ff1a4",
     "children": [
-        "e1a397a7-d24e-4ecd-816f-d881dca0c4f4",
-        "b0d48b1a-aeed-4e4c-a749-a2aa6b469176"
+        "e1a397a7-d24e-4ecd-816f-d881dca0c4f4"
     ],
     "filterType": "GMSprite",
     "folderName": "grp_yeti",

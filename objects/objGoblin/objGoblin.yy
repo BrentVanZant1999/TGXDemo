@@ -2,7 +2,7 @@
     "id": "6712e56b-5442-46a5-bc52-816e964136be",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objRat",
+    "name": "objGoblin",
     "eventList": [
         {
             "id": "f164824b-6a6a-4312-b1ab-a724a58c7fe0",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9b7a5c39-e181-4a0b-b194-11634d941f2e",
+    "spriteId": "9e361280-dd67-46b0-ae7f-c976a729ecaa",
     "visible": true
 }

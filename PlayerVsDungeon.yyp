@@ -218,7 +218,7 @@
             "Key": "6712e56b-5442-46a5-bc52-816e964136be",
             "Value": {
                 "id": "d5dd33ba-8caa-4e0c-acb3-5bce3ea544c0",
-                "resourcePath": "objects\\objRat\\objRat.yy",
+                "resourcePath": "objects\\objGoblin\\objGoblin.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -431,14 +431,6 @@
             }
         },
         {
-            "Key": "b0d48b1a-aeed-4e4c-a749-a2aa6b469176",
-            "Value": {
-                "id": "1405e542-b592-4e50-b031-a41655385d38",
-                "resourcePath": "sprites\\spr_yeti_idleR\\spr_yeti_idleR.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b14e285f-2e9c-41f6-b29b-6e061ea504f4",
             "Value": {
                 "id": "429448cd-5f8d-44a9-8ca4-166215e4ee94",
@@ -586,7 +578,7 @@
             "Key": "e1a397a7-d24e-4ecd-816f-d881dca0c4f4",
             "Value": {
                 "id": "30ca3670-1eec-4214-ab8d-cf2dad36fb80",
-                "resourcePath": "sprites\\spr_yeti_idle\\spr_yeti_idle.yy",
+                "resourcePath": "sprites\\spr_golem_idle\\spr_golem_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
