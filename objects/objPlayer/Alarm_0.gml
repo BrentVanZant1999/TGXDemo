@@ -11,7 +11,7 @@ switch(kit){
 		oneCooldownDef = 30;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
-		mySpeed = 4; 
+		mySpeed = 5; 
 	}
 	break; 
 	case(2): 
@@ -23,8 +23,21 @@ switch(kit){
 		oneCooldownDef = 30;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
-		mySpeed = 2; 
+		mySpeed = 3; 
 	}
+	break;
+	case(3):
+	{
+		oneVal = 4; //knife toss  
+		twoVal = 5;
+		threeVal = 6; 
+		
+		oneCooldownDef = 30;
+		twoCooldownDef = 120; 
+		threeCooldownDef = 0;
+		mySpeed = 10; 
+	}
+	break;
 }
 
 myGrid = instance_position(x,y,objGridSpace);

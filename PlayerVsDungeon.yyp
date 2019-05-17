@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "11ff2548-098b-4efa-9e9f-3c2a25461608",
+            "Value": {
+                "id": "2037351c-b8f6-4650-87f8-d32435cf3919",
+                "resourcePath": "objects\\objOverlay\\objOverlay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15bed6d1-9fb8-4069-91cb-463e0cf32bda",
             "Value": {
                 "id": "6ee878c6-d222-4a17-b3d6-d74c447430e3",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "853745a8-d22b-46d9-aa7a-6b128bf25bd3",
+            "Value": {
+                "id": "bda2439e-7ad0-42ae-b040-564b3b7d24af",
+                "resourcePath": "objects\\objShadowBlast\\objShadowBlast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8762069e-0fa1-414f-b94b-85ecfe8093ba",
             "Value": {
                 "id": "76128d3a-8467-4d8b-9d62-db69d11e1479",
@@ -612,6 +628,14 @@
                 "id": "8f8d2384-2a84-42c7-9cb5-f82ef00a2c3a",
                 "resourcePath": "views\\c909bf02-5918-4541-b8c5-a720fa5b4e29.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb11baaf-6dad-47f7-964c-f42baeea0979",
+            "Value": {
+                "id": "25111ddb-bde7-4ada-8825-c9ea5fb5a7b1",
+                "resourcePath": "objects\\objWolfSlash\\objWolfSlash.yy",
+                "resourceType": "GMObject"
             }
         },
         {

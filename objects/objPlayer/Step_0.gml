@@ -3,6 +3,11 @@ if (isActive) {
 	if (	idleframeCounter > idleFrameCounterMax ) {
 		idleframeCounter = 0; 
 	}
+	abilityCounter++
+	if (abilityCounter > abilityMax) {
+		abilityCounter = 0;
+	}
+	
 	/// @description Handle Movement and Abilities 
 if (team == 1 ) {
 	if (canMove) {
@@ -16,7 +21,7 @@ if (team == 1 ) {
 		    }
 		}
 		if ( amountPressed == 1 ) {
-			movePlayer(pressed+1,1); 
+			movePlayer(pressed+1,1);
 			alarm[0] = mySpeed; 
 			canMove = false; 
 		}

@@ -6,6 +6,8 @@ isFacingRight = false;
 alarm[0] = 1; //active alarm 
 idleFrameCounterMax = 15; 
 idleframeCounter = 0; 
+abilityCounter = 0; 
+abilityMax = 7; 
 var myGrid; //gridHolder
 myHealth = 1; 
 myShield = 0; 
