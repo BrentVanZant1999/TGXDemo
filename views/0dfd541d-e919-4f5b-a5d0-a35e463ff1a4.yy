@@ -7,7 +7,7 @@
         "e1a397a7-d24e-4ecd-816f-d881dca0c4f4"
     ],
     "filterType": "GMSprite",
-    "folderName": "grp_yeti",
+    "folderName": "grp_golem",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

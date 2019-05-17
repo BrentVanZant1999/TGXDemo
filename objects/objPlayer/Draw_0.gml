@@ -34,6 +34,17 @@ if (isActive) {
 				
 			}
 			break;
+			case(4):
+			{
+				if (isFacingRight) {
+					draw_sprite_ext(spr_golem_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
+				}
+				else {
+					draw_sprite_ext(spr_golem_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
+				}
+				
+			}
+			break;
 		}
 	}
 	else if (abilityAnim) {

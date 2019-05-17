@@ -10,24 +10,8 @@ if (isActive) {
 	
 	/// @description Handle Movement and Abilities 
 if (team == 1 ) {
-	if (canMove) {
-		amountPressed = 0; 
-		pressed = -1; 
-		for ( var i = 0; i < array_length_1d(objGameData.p1_movement_inputs); i++){
-		    var this_key = objGameData.p1_movement_inputs[i];
-		    if keyboard_check(this_key) {
-			  amountPressed++;
-			  pressed = i; 
-		    }
-		}
-		if ( amountPressed == 1 ) {
-			movePlayer(pressed+1,1);
-			alarm[0] = mySpeed; 
-			canMove = false; 
-		}
-	}
+	abilPressed = -1;
 	if (canCast) {
-		abilPressed = -1; 
 		for ( var i = 0; i < array_length_1d(objGameData.p1_ability_inputs); i++){
 		    var this_key = objGameData.p1_ability_inputs[i];
 		    if keyboard_check(this_key) {
@@ -59,26 +43,30 @@ if (team == 1 ) {
 			}
 		}
 	}
-}
-else if ( team == 2 ) {
-	if (canMove) {
+	if ( canCast && abilPressed > -1 ) {
+		
+	}
+	else if (canMove) {
 		amountPressed = 0; 
 		pressed = -1; 
-		for ( var i = 0; i < array_length_1d(objGameData.p2_movement_inputs); i++){
-		    var this_key = objGameData.p2_movement_inputs[i];
+		for ( var i = 0; i < array_length_1d(objGameData.p1_movement_inputs); i++){
+		    var this_key = objGameData.p1_movement_inputs[i];
 		    if keyboard_check(this_key) {
 			  amountPressed++;
 			  pressed = i; 
 		    }
 		}
 		if ( amountPressed == 1 ) {
-			movePlayer(pressed+1,1); 
+			movePlayer(pressed+1,1);
 			alarm[0] = mySpeed; 
 			canMove = false; 
 		}
 	}
+	
+}
+else if ( team == 2 ) {
+	abilPressed = -1; 
 	if (canCast) {
-		abilPressed = -1; 
 		for ( var i = 0; i < array_length_1d(objGameData.p2_ability_inputs); i++){
 		    var this_key = objGameData.p2_ability_inputs[i];
 		    if keyboard_check(this_key) {
@@ -110,6 +98,24 @@ else if ( team == 2 ) {
 			}
 		}
 	}
+	if ( canCast && abilPressed > -1 ) {
+		
+	}
+	else if (canMove) {
+		amountPressed = 0; 
+		pressed = -1; 
+		for ( var i = 0; i < array_length_1d(objGameData.p2_movement_inputs); i++){
+		    var this_key = objGameData.p2_movement_inputs[i];
+		    if keyboard_check(this_key) {
+			  amountPressed++;
+			  pressed = i; 
+		    }
+		}
+		if ( amountPressed == 1 ) {
+			movePlayer(pressed+1,1); 
+			alarm[0] = mySpeed; 
+			canMove = false; 
+		}
+	}
 }
-
 }

@@ -1,6 +1,6 @@
 /// @description Hold Game Constants
-gridWidth = 98; 
-gridHeight = 66;
+gridWidth = 68; 
+gridHeight = 44;
 gridPadding = 0;
 
 bgDepth = 51;

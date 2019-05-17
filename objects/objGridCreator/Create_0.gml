@@ -1,6 +1,6 @@
 /// @description Create Base Grid
 var xMiddle = room_width/2;
-var yMiddle = (room_height/2)+(room_height/4);
+var yMiddle = (room_height/2)+(room_height/8);
 gridWidth = objGameData.gridWidth;  
 gridHeight = objGameData.gridHeight; 
 gridPadding = objGameData.gridPadding; 
@@ -9,10 +9,16 @@ sidesSize = 4;
 for (var i = 1; i <= sidesSize; i++ ) {
 	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle,0,objGridSpace); 
 	newGrid.occupied = false; 
-	newGrid.color = 1; 
+	newGrid.color = 3; 
 
 	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle-(gridHeight),0,objGridSpace); 
-	newGrid.color = 1; 
+	newGrid.color = 3; 
+	
+	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle-(gridHeight),0,objGridSpace); 
+	newGrid.color = 3; 
+	
+	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle+(gridHeight),0,objGridSpace); 
+	newGrid.color = 3; 
 	
 	if ( i == 3 ) {
 		var playerOne = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle,-10,objPlayer); 
@@ -25,19 +31,16 @@ for (var i = 1; i <= sidesSize; i++ ) {
 		playerOne.kit = 1; 
 		playerOne.isFacingRight = false; 
 	}
-
-	var newGrid = instance_create_depth(xMiddle-(i*(gridPadding+gridWidth)),yMiddle+(gridPadding+gridHeight),0,objGridSpace); 
-	newGrid.color = 1; 
 	
 	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle,0,objGridSpace); 
 	newGrid.occupied = false; 
-	newGrid.color = 2; 
+	newGrid.color = 3; 
 
 	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle-(gridPadding+gridHeight),0,objGridSpace); 
-	newGrid.color = 2; 
+	newGrid.color = 3; 
 
 	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle+(gridPadding+gridHeight),0,objGridSpace); 
-	newGrid.color = 2; 
+	newGrid.color = 3;
 }
 var newGrid = instance_create_depth(xMiddle,yMiddle,0,objGridSpace); 
 newGrid.color = 3; 

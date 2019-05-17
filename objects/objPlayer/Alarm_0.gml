@@ -3,12 +3,8 @@ isActive = true;
 canMove = true; 
 switch(kit){
 	case(1): 
-	{
-		oneVal = 1; //fire bomb 
-		twoVal = 2;
-		threeVal = 3; 
-		
-		oneCooldownDef = 30;
+	{		
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 5; 
@@ -16,11 +12,7 @@ switch(kit){
 	break; 
 	case(2): 
 	{
-		oneVal = 4; //knife toss  
-		twoVal = 5;
-		threeVal = 6; 
-		
-		oneCooldownDef = 30;
+		oneCooldownDef = 15;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 3; 
@@ -28,14 +20,18 @@ switch(kit){
 	break;
 	case(3):
 	{
-		oneVal = 4; //knife toss  
-		twoVal = 5;
-		threeVal = 6; 
-		
-		oneCooldownDef = 30;
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
-		mySpeed = 10; 
+		mySpeed = 8; 
+	}
+	break;
+	case(4):
+	{
+		oneCooldownDef = 25;
+		twoCooldownDef = 120; 
+		threeCooldownDef = 0;
+		mySpeed = 8; 
 	}
 	break;
 }
