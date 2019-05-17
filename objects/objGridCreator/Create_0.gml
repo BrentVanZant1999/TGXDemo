@@ -7,19 +7,20 @@ gridPadding = objGameData.gridPadding;
 sidesSize = 4; 
 
 for (var i = 1; i <= sidesSize; i++ ) {
-	var newGrid = instance_create_depth(xMiddle-(i*(gridPadding+gridWidth)),yMiddle,0,objGridSpace); 
+	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle,0,objGridSpace); 
+	newGrid.occupied = false; 
 	newGrid.color = 1; 
 
-	var newGrid = instance_create_depth(xMiddle-(i*(gridPadding+gridWidth)),yMiddle-(gridPadding+gridHeight),0,objGridSpace); 
+	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle-(gridHeight),0,objGridSpace); 
 	newGrid.color = 1; 
 	
 	if ( i == 3 ) {
-		var playerOne = instance_create_depth(xMiddle-(i*(gridPadding+gridWidth)),yMiddle,-10,objPlayer); 
+		var playerOne = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle,-10,objPlayer); 
 		playerOne.team = 1; 
 		playerOne.kit = 1; 
 		playerOne.isFacingRight = true; 
 		
-		var playerOne = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle,-10,objPlayer); 
+		var playerOne = instance_create_depth(xMiddle+(i*(gridWidth)),yMiddle,-10,objPlayer); 
 		playerOne.team = 2; 
 		playerOne.kit = 1; 
 		playerOne.isFacingRight = false; 
@@ -29,6 +30,7 @@ for (var i = 1; i <= sidesSize; i++ ) {
 	newGrid.color = 1; 
 	
 	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle,0,objGridSpace); 
+	newGrid.occupied = false; 
 	newGrid.color = 2; 
 
 	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle-(gridPadding+gridHeight),0,objGridSpace); 
