@@ -14,7 +14,7 @@ for (var i = 1; i <= sidesSize; i++ ) {
 	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle-(gridHeight),0,objGridSpace); 
 	newGrid.color = 3; 
 	
-	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle-(gridHeight),0,objGridSpace); 
+	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle-(gridHeight*2),0,objGridSpace); 
 	newGrid.color = 3; 
 	
 	var newGrid = instance_create_depth(xMiddle-(i*(gridWidth)),yMiddle+(gridHeight),0,objGridSpace); 
@@ -32,21 +32,27 @@ for (var i = 1; i <= sidesSize; i++ ) {
 		playerOne.isFacingRight = false; 
 	}
 	
-	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle,0,objGridSpace); 
+	var newGrid = instance_create_depth(xMiddle+(i*(gridWidth)),yMiddle,0,objGridSpace); 
 	newGrid.occupied = false; 
 	newGrid.color = 3; 
 
-	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle-(gridPadding+gridHeight),0,objGridSpace); 
+	var newGrid = instance_create_depth(xMiddle+(i*(gridWidth)),yMiddle-(+gridHeight),0,objGridSpace); 
 	newGrid.color = 3; 
-
-	var newGrid = instance_create_depth(xMiddle+(i*(gridPadding+gridWidth)),yMiddle+(gridPadding+gridHeight),0,objGridSpace); 
+	var newGrid = instance_create_depth(xMiddle+(i*(gridWidth)),yMiddle-(gridHeight*2),0,objGridSpace); 
+	newGrid.color = 3; 
+	
+	var newGrid = instance_create_depth(xMiddle+(i*(gridWidth)),yMiddle+(+gridHeight),0,objGridSpace); 
 	newGrid.color = 3;
 }
 var newGrid = instance_create_depth(xMiddle,yMiddle,0,objGridSpace); 
 newGrid.color = 3; 
 
-var newGrid = instance_create_depth(xMiddle,yMiddle-(gridPadding+gridHeight),0,objGridSpace); 
+var newGrid = instance_create_depth(xMiddle,yMiddle-(gridHeight),0,objGridSpace); 
 newGrid.color = 3; 
 
-var newGrid = instance_create_depth(xMiddle,yMiddle+(gridPadding+gridHeight),0,objGridSpace); 
+var newGrid = instance_create_depth(xMiddle,yMiddle+(gridHeight),0,objGridSpace); 
 newGrid.color = 3; 
+
+var newGrid = instance_create_depth(xMiddle,yMiddle-(gridHeight*2),0,objGridSpace); 
+newGrid.color = 3; 
+	

@@ -3,11 +3,16 @@ if (isActive) {
 	if (	idleframeCounter > idleFrameCounterMax ) {
 		idleframeCounter = 0; 
 	}
-	abilityCounter++
+	//handle one
+	abilityCounter++;
 	if (abilityCounter > abilityMax) {
 		abilityCounter = 0;
 	}
-	
+	//handle two
+	abilityTwoCounter++;
+	if (abilityTwoCounter > abilityTwoMax) {
+		abilityTwoCounter = 0;
+	}
 	/// @description Handle Movement and Abilities 
 if (team == 1 ) {
 	abilPressed = -1;

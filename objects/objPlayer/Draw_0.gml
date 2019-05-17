@@ -85,5 +85,29 @@ if (isActive) {
 		}
 		
 	}
+	else if (abilityTwoAnim) {
+		switch(kit){
+			case(3):
+			{
+				if (abilityTwoCounter < 10) {
+					if (isFacingRight) {
+						draw_sprite_ext(spr_shade_tp,abilityTwoCounter,x,y+gridHeight/4,-1,1,0,c_white,1);
+					}
+					else {
+						draw_sprite_ext(spr_shade_tp,abilityTwoCounter,x,y+gridHeight/4,1,1,0,c_white,1);
+					}
+				}		
+				if (abilityTwoCounter >= 5) {
+					if (isFacingRight) {
+						draw_sprite_ext(spr_shade_tp,abilityTwoCounter,destSpotX,destSpotY+gridHeight/4,1,1,0,c_white,1);
+					}
+					else {
+						draw_sprite_ext(spr_shade_tp,abilityTwoCounter,destSpotX,destSpotY+gridHeight/4,-1,1,0,c_white,1);
+					}
+				}
+			}
+			break;
+		}
+	}
 		
 }

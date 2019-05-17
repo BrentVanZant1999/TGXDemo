@@ -33,11 +33,9 @@ switch(dir){
 					y = newY;
 					myGrid.occupied = false;
 					inst.occupied = true;
+					inst.team = team;
+					myGrid = inst;
 				} 
-				//if not animated character kill
-				else {
-					
-				}
 			}
 		}
 	}
@@ -60,6 +58,8 @@ switch(dir){
 					y = newY;
 					myGrid.occupied = false;
 					inst.occupied = true;
+					inst.team = team;
+					myGrid = inst;
 				} 
 			}
 		}
@@ -83,6 +83,8 @@ switch(dir){
 					y = newY;
 					myGrid.occupied = false;
 					inst.occupied = true;
+					inst.team = team;
+					myGrid = inst;
 				}
 			}
 		}
@@ -106,11 +108,9 @@ switch(dir){
 					y = newY;
 					myGrid.occupied = false;
 					inst.occupied = true;
+					inst.team = team;
+					myGrid = inst;
 				} 
-				//if not animated character kill
-				else {
-					
-				}
 			}
 		}
 	}

@@ -1,0 +1,19 @@
+draw_set_alpha(myAlpha);
+switch(team)
+{
+case(1): 
+{
+	draw_sprite(sprWarningBlue,0,x,y);
+}
+break;
+case(2): 
+{
+	draw_sprite(sprWarningRed,0,x,y);	
+}
+break;
+case(3): 
+{
+	draw_sprite(sprWarningWhite,0,x,y);	
+}
+break;	
+}

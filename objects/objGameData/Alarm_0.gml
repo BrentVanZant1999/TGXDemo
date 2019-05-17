@@ -1,4 +1,4 @@
-hasClicked++;
-if ( hasClicked == 2 ) {
-	hasClicked = 0;
+hasSwitch++;
+if ( hasSwitch == 2 ) {
+	hasSwitch = 0;
 }

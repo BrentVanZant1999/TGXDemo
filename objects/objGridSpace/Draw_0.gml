@@ -23,11 +23,10 @@ switch(color){
 	break;
 }
 if (occupied) {
-inst = instance_position(x,y,objPlayer);
-	if(inst.team ==1) {
-		draw_sprite(sprPlayerIndicatorBlue,frame/10,x,y);
-	}	
-	else {
-		draw_sprite(sprPlayerIndicatorRed,frame/10,x,y);
-	}
+		if(team ==1) {
+			draw_sprite(sprPlayerIndicatorBlue,frame/10,x,y);
+		}	
+		else {
+			draw_sprite(sprPlayerIndicatorRed,frame/10,x,y);
+		}
 }

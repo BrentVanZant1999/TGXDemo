@@ -10,6 +10,7 @@ if (isActive) {
 	//check if there is a grid existant at new x and y 
 	if inst != noone
 	{
+		inst.myAlpha = 0.8;
 		//handle double team overlay
 		if (over == noone) {
 			overlayX = inst.x;

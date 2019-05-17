@@ -24,6 +24,8 @@ switch(kit){
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 8; 
+		abilityMax = 7; 
+		abilityTwoMax = 15;
 	}
 	break;
 	case(4):
@@ -38,3 +40,4 @@ switch(kit){
 
 myGrid = instance_position(x,y,objGridSpace);
 myGrid.occupied = true;
+myGrid.team = team;
