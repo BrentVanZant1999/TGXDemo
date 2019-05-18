@@ -66,6 +66,60 @@ switch(classCast){
 		alarm[6] = 14; //unlock
 	}
 	break;	
+	//golem quake shards
+	case(4): 
+	{
+		
+		
+	}
+	break;
+	//ogre whirlwind
+	case(5): 
+	{
+		
+		
+	}
+	break;
+	//yeti poundnd
+	case(6): 
+	{
+		
+		
+	}
+	break;
+	//mandrake ground form
+	case(7): 
+	{
+		
+		
+	}
+	break;
+	//ogre rat dash
+	case(8): 
+	{
+		canMove = false; 
+		canCast = false; 
+		var hasEnd = false; 
+		var endX = 0;
+		var endY = 0; 
+		if (isFacingRight) {
+			for (var j = 1; j < 4; j++) {
+				if (hasEnd == false ) {
+					targX = x + (j*gridWidth);
+					targY = y; 
+					var inst = instance_position(targX,targY,objGridSpace);
+					if (inst != noone) {
+						if (inst.structure == 0 ) {
+							destSpotX = targX;
+							destSpotY = targY;
+						}
+					}
+				}
+			}
+			//actual dash mechanics
+		}
+	}
+	break;
 }
 
 alarm[3] = twoCooldownDef; 	

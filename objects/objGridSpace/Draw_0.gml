@@ -23,10 +23,15 @@ switch(color){
 	break;
 }
 if (occupied) {
-		if(team ==1) {
-			draw_sprite(sprPlayerIndicatorBlue,frame/10,x,y);
-		}	
+		if (occupiedTwo) {
+			draw_sprite(sprPlayerIndicatorPurple,frame/10,x,y);
+		}
 		else {
-			draw_sprite(sprPlayerIndicatorRed,frame/10,x,y);
+			if(team ==1) {
+				draw_sprite(sprPlayerIndicatorBlue,frame/10,x,y);
+			}	
+			else {
+				draw_sprite(sprPlayerIndicatorRed,frame/10,x,y);
+			}
 		}
 }

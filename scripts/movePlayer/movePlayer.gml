@@ -28,14 +28,30 @@ switch(dir){
 			//check if grid does not have structure and is valid
 			if ( inst.valid == true || inst.structure == 0 ) {
 				//check if grid has another character on it 
-				if ( inst.occupied == false ) {
-					x = newX;
-					y = newY;
-					myGrid.occupied = false;
+				if ( myGrid.occupiedTwo) {
+					myGrid.occupiedTwo = false;
+					if (team == 1 ) {
+						myGrid.team = 2; 
+					}
+					else {
+						myGrid.team = 1; 
+					}
+					myGrid.occupied = true; 
+				} 
+				else {
+					myGrid.occupied = false;	
+				}
+				if (inst.occupied) {
+					inst.occupied = true;
+					inst.occupiedTwo = true;
+					inst.team = team;
+				} else {
 					inst.occupied = true;
 					inst.team = team;
-					myGrid = inst;
-				} 
+				}
+				x = newX;
+				y = newY;
+				myGrid = inst;
 			}
 		}
 	}
@@ -53,14 +69,30 @@ switch(dir){
 			//check if grid does not have structure and is valid
 			if ( inst.valid == true || inst.structure == 0 ) {
 				//check if grid has another character on it 
-				if ( inst.occupied == false ) {
-					x = newX;
-					y = newY;
-					myGrid.occupied = false;
+				if ( myGrid.occupiedTwo) {
+					myGrid.occupiedTwo = false;
+					if (team == 1 ) {
+						myGrid.team = 2; 
+					}
+					else {
+						myGrid.team = 1; 
+					}
+					myGrid.occupied = true; 
+				} 
+				else {
+					myGrid.occupied = false;	
+				}
+				if (inst.occupied) {
+					inst.occupied = true;
+					inst.occupiedTwo = true;
+					inst.team = team;
+				} else {
 					inst.occupied = true;
 					inst.team = team;
-					myGrid = inst;
-				} 
+				}
+				x = newX;
+				y = newY;
+				myGrid = inst;
 			}
 		}
 	}
@@ -78,14 +110,30 @@ switch(dir){
 			//check if grid does not have structure and is valid
 			if ( inst.valid == true || inst.structure == 0 ) {
 				//check if grid has another character on it 
-				if ( inst.occupied == false ) {
-					x = newX;
-					y = newY;
-					myGrid.occupied = false;
+				if ( myGrid.occupiedTwo) {
+					myGrid.occupiedTwo = false;
+					if (team == 1 ) {
+						myGrid.team = 2; 
+					}
+					else {
+						myGrid.team = 1; 
+					}
+					myGrid.occupied = true; 
+				} 
+				else {
+					myGrid.occupied = false;	
+				}
+				if (inst.occupied) {
+					inst.occupied = true;
+					inst.occupiedTwo = true;
+					inst.team = team;
+				} else {
 					inst.occupied = true;
 					inst.team = team;
-					myGrid = inst;
 				}
+				x = newX;
+				y = newY;
+				myGrid = inst;
 			}
 		}
 	}
@@ -103,14 +151,30 @@ switch(dir){
 			//check if grid does not have structure and is valid
 			if ( inst.valid == true || inst.structure == 0 ) {
 				//check if grid has another character on it 
-				if ( inst.occupied == false ) {
-					x = newX;
-					y = newY;
-					myGrid.occupied = false;
+				if ( myGrid.occupiedTwo) {
+					myGrid.occupiedTwo = false;
+					if (team == 1 ) {
+						myGrid.team = 2; 
+					}
+					else {
+						myGrid.team = 1; 
+					}
+					myGrid.occupied = true; 
+				} 
+				else {
+					myGrid.occupied = false;	
+				}
+				if (inst.occupied) {
+					inst.occupied = true;
+					inst.occupiedTwo = true;
+					inst.team = team;
+				} else {
 					inst.occupied = true;
 					inst.team = team;
-					myGrid = inst;
-				} 
+				}
+				x = newX;
+				y = newY;
+				myGrid = inst;
 			}
 		}
 	}

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0115889a-cad0-444a-85ca-351892177091",
+            "Value": {
+                "id": "04af33ad-acac-49f1-a7e3-01526b25a56c",
+                "resourcePath": "sprites\\sprPlayerIndicatorPurple\\sprPlayerIndicatorPurple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0633b51b-7c5c-4ff2-b8d1-331dff4d0eaa",
             "Value": {
                 "id": "ea69ff94-ce79-43f5-a77b-4abbf0618405",
