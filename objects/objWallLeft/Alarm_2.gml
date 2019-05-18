@@ -1,0 +1,2 @@
+//lock
+canLock = true; 

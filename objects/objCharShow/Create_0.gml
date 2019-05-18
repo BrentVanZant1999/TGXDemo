@@ -1,0 +1,9 @@
+kit = 0;
+isActive = false; 
+team = 0;
+alarm[0] = 1;
+xScale = 1.4; 
+yScale = 1.4; 
+idleCounter = 0;
+idleCounterMax = 11; 
+myAlpha = 1; 

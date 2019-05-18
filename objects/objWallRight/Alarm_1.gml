@@ -1,0 +1,2 @@
+//scrolling
+canScroll = true; 

@@ -1,3 +1,4 @@
+spriteToUse = spr_goblin_idle;
 team = 1; 
 kit = 1; 
 isActive = false; 
@@ -5,7 +6,7 @@ isIdle = true;
 isFacingRight = false; 
 invinc = false;
 
-alarm[0] = 1; //active alarm 
+alarm[0] = 5; //active alarm 
 idleFrameCounterMax = 15; 
 idleframeCounter = 0; 
 
@@ -22,8 +23,8 @@ var myGrid; //gridHolder
 myHealth = 1; 
 myShield = 0; 
 mySpeed = 3; // 2 == base speed
-canMove = true; 
-canCast = true; 
+canMove = false; 
+canCast = false; 
 
 //ability variables 
 oneVal = -1;

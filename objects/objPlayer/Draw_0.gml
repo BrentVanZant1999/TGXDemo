@@ -3,49 +3,51 @@ if (isActive) {
 		switch(kit){
 			case(1):
 			{
-				if (isFacingRight) {
-					draw_sprite_ext(spr_goblin_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
-				}
-				else {
-					draw_sprite_ext(spr_goblin_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
-				}
-				
+				spriteToUse = spr_goblin_idle;
 			}
 			break;
 			case(2):
 			{
-				if (isFacingRight) {
-					draw_sprite_ext(spr_wolf_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
-				}
-				else {
-					draw_sprite_ext(spr_wolf_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
-				}
-				
+				spriteToUse = spr_wolf_idle;
 			}
 			break;
-			case(3):
+			case(3): 
 			{
-				if (isFacingRight) {
-					draw_sprite_ext(spr_shade_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
-				}
-				else {
-					draw_sprite_ext(spr_shade_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
-				}
-				
+				spriteToUse = spr_shade_idle;
 			}
 			break;
 			case(4):
 			{
-				if (isFacingRight) {
-					draw_sprite_ext(spr_golem_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
-				}
-				else {
-					draw_sprite_ext(spr_golem_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
-				}
-				
+				spriteToUse = spr_golem_idle;
 			}
 			break;
+			case(5): 
+			{
+				spriteToUse = spr_samuri_idle;
+			}
+			break;
+			case(6):
+			{
+				spriteToUse = spr_yeti_idle;
+			}
+			break;
+			case(7): 
+			{
+				spriteToUse = spr_mandrake_idle;
+			}
+			break;
+			case(8): 
+			{
+				spriteToUse = spr_rat_idle;
+			}
 		}
+		if (isFacingRight) {
+			draw_sprite_ext(spriteToUse,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
+		}
+		else {
+			draw_sprite_ext(spriteToUse,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
+		}
+				
 	}
 	else if (abilityAnim) {
 		switch(kit){
