@@ -1,8 +1,8 @@
 {
-    "id": "477d0776-a5ce-448a-8c03-60d67a85725b",
+    "id": "cca513fa-2c88-4cd2-9872-70bad95d896c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objBomb",
+    "name": "objMeleeattack",
     "eventList": [
         
     ],

@@ -9,14 +9,14 @@ switch(kit){
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
-		mySpeed = 5;
+		mySpeed = 4;
 		myHealth = 2; 
 	}
 	break; 
 	case(2): 
 	//wolf
 	{
-		oneCooldownDef = 15;
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 3; 
@@ -38,7 +38,7 @@ switch(kit){
 	//golem
 	case(4):
 	{
-		oneCooldownDef = 35;
+		oneCooldownDef = 25;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 8;
@@ -78,7 +78,7 @@ switch(kit){
 	//rat
 	case(8):
 	{
-		oneCooldownDef = 25;
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 2;

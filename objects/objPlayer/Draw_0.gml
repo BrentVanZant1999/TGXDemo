@@ -54,10 +54,10 @@ if (isActive) {
 			case(1):
 			{
 				if (isFacingRight) {
-					draw_sprite_ext(spr_goblin_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
+					draw_sprite_ext(spr_goblin_attack,abilityCounter/2,x+10,y+gridHeight/4,-1,1,0,c_white,1);
 				}
 				else {
-					draw_sprite_ext(spr_goblin_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
+					draw_sprite_ext(spr_goblin_attack,abilityCounter/2,x-10,y+gridHeight/4,1,1,0,c_white,1);
 				}
 				
 			}
@@ -65,10 +65,10 @@ if (isActive) {
 			case(2):
 			{
 				if (isFacingRight) {
-					draw_sprite_ext(spr_wolf_idle,idleframeCounter/4,x,y+gridHeight/4,-1,1,0,c_white,1);
+					draw_sprite_ext(spr_wolf_attack,abilityCounter/2,x,y+gridHeight/4,-1,1,0,c_white,1);
 				}
 				else {
-					draw_sprite_ext(spr_wolf_idle,idleframeCounter/4,x,y+gridHeight/4,1,1,0,c_white,1);
+					draw_sprite_ext(spr_wolf_attack,abilityCounter/2,x,y+gridHeight/4,1,1,0,c_white,1);
 				}
 				
 			}
@@ -80,6 +80,28 @@ if (isActive) {
 				}
 				else {
 					draw_sprite_ext(spr_shade_attack,abilityCounter,x,y+gridHeight/4,1,1,0,c_white,1);
+				}
+				
+			}
+			break;
+			case(4):
+			{
+				if (isFacingRight) {
+					draw_sprite_ext(spr_golem_basic,abilityCounter/2,x,y+gridHeight/4,-1,1,0,c_white,1);
+				}
+				else {
+					draw_sprite_ext(spr_golem_basic,abilityCounter/2,x,y+gridHeight/4,1,1,0,c_white,1);
+				}
+				
+			}
+			break;
+			case(8):
+			{
+				if (isFacingRight) {
+					draw_sprite_ext(spr_rat_basic,abilityCounter/2,x+15,y+gridHeight/4,-1,1,0,c_white,1);
+				}
+				else {
+					draw_sprite_ext(spr_rat_basic,abilityCounter/2,x-15,y+gridHeight/4,1,1,0,c_white,1);
 				}
 				
 			}
@@ -107,6 +129,16 @@ if (isActive) {
 						draw_sprite_ext(spr_shade_tp,abilityTwoCounter,destSpotX,destSpotY+gridHeight/4,-1,1,0,c_white,1);
 					}
 				}
+			}
+			break;
+			case(8):
+			{
+					if (isFacingRight) {
+						draw_sprite_ext(spr_rat_dash,ratDash,x,y+gridHeight/4,-1,1,0,c_white,0.7);
+					}
+					else {
+						draw_sprite_ext(spr_rat_dash,ratDash,x,y+gridHeight/4,1,1,0,c_white,0.7);
+					}	
 			}
 			break;
 		}

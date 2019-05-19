@@ -1,3 +1,7 @@
+basicThreat[0] = noone;
+basicThreat[1] = noone;
+basicThreat[2] = noone;
+
 spriteToUse = spr_goblin_idle;
 team = 1; 
 kit = 1; 
@@ -51,7 +55,8 @@ gridWidth = objGameData.gridWidth;
 gridHeight = objGameData.gridHeight; 
 gridPadding = objGameData.gridPadding;
 
- 
+//rat frames
+ratDash = 0;
 //shade tele
 destSpotX = 0;
 destSpotY = 0;
