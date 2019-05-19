@@ -26,7 +26,7 @@ if (isActive) {
 		break;
 		case(5):
 		{
-			draw_sprite_ext(spr_samuri_idle,idleCounter/3,x,y,xScale,yScale, 0,c_white,myAlpha);
+			draw_sprite_ext(spr_ogre_idle,idleCounter/3,x,y,xScale,yScale, 0,c_white,myAlpha);
 		}
 		break;
 		case(6):

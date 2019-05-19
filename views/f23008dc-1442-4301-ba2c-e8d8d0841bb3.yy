@@ -4,10 +4,11 @@
     "mvc": "1.1",
     "name": "f23008dc-1442-4301-ba2c-e8d8d0841bb3",
     "children": [
-        "c6ec23c5-5482-4ccc-815a-19d42cf33be9"
+        "c6ec23c5-5482-4ccc-815a-19d42cf33be9",
+        "0aaf52bf-88ee-4433-ad7f-f63e45459411"
     ],
     "filterType": "GMSprite",
-    "folderName": "grp_samuri",
+    "folderName": "grp_ogre",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

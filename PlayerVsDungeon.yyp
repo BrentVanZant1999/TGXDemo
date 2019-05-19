@@ -71,10 +71,26 @@
             }
         },
         {
+            "Key": "0a557504-5b1e-40b7-80a6-4e7fd74b7b9b",
+            "Value": {
+                "id": "406eee39-e5dd-46eb-ab08-03178409b4ef",
+                "resourcePath": "sprites\\spr_yeti_basic\\spr_yeti_basic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a6bc72d-6e2f-4aa8-b700-defeb92cabb3",
             "Value": {
                 "id": "af90b728-055e-4384-852d-9f0106380f2b",
                 "resourcePath": "sprites\\sprBlueTile\\sprBlueTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0aaf52bf-88ee-4433-ad7f-f63e45459411",
+            "Value": {
+                "id": "a277d4f8-a997-41bb-bc2c-e1e762a1146b",
+                "resourcePath": "sprites\\spr_ogre_basic\\spr_ogre_basic.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -227,6 +243,14 @@
             "Value": {
                 "id": "22868eb2-31ee-462d-a97f-1492f7ca567f",
                 "resourcePath": "sprites\\spr_golem_idle\\spr_golem_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4ec9e2ec-785c-4c53-8103-6d8b4208d044",
+            "Value": {
+                "id": "8963a8ab-ce14-47ed-ad1d-b2a6f7cd16af",
+                "resourcePath": "sprites\\spr_mandrake_basic\\spr_mandrake_basic.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -674,7 +698,7 @@
             "Key": "c6ec23c5-5482-4ccc-815a-19d42cf33be9",
             "Value": {
                 "id": "187bd832-75f4-43bd-bcf3-1ef3c67a115d",
-                "resourcePath": "sprites\\spr_samuri_idle\\spr_samuri_idle.yy",
+                "resourcePath": "sprites\\spr_ogre_idle\\spr_ogre_idle.yy",
                 "resourceType": "GMSprite"
             }
         },

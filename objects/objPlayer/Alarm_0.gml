@@ -48,7 +48,7 @@ switch(kit){
 	//ogre
 	case(5):
 	{
-		oneCooldownDef = 25;
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 5;
@@ -58,7 +58,7 @@ switch(kit){
 	//yeti
 	case(6):
 	{
-		oneCooldownDef = 35;
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 8;
@@ -68,7 +68,7 @@ switch(kit){
 	//mandrake
 	case(7):
 	{
-		oneCooldownDef = 25;
+		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 4;

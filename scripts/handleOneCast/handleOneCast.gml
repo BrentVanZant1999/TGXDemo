@@ -169,6 +169,113 @@ switch(classCast){
 		}
 	}
 	break;
+	case(5): 
+	{
+		isIdle = false;
+		canMove = false; 
+		abilityCounter = 0; 
+		abilityMax = 11;
+		abilityAnim = true; 
+		alarm[8] = 12; //unlock 
+		canCast = false;
+		if (isFacingRight) {
+			targXOne = x+gridWidth;
+			targYOne = y;
+			var gridInst = instance_position(targXOne, targYOne, objGridSpace);
+			if (gridInst != noone) {
+				var newWarning = instance_create_depth(targXOne,targYOne,0,objWarning);
+				newWarning.myLife = 11;
+				newWarning.projectileLife = 3;
+				newWarning.team = team;	
+				basicThreat[0] = newWarning;
+			}
+
+		}
+		else {
+			targXOne = x-gridWidth;
+			targYOne = y;
+			var gridInst = instance_position(targXOne, targYOne, objGridSpace);
+			if (gridInst != noone) {
+				var newWarning = instance_create_depth(targXOne,targYOne,0,objWarning);
+				newWarning.myLife = 11;
+				newWarning.projectileLife = 3;
+				newWarning.team = team;	
+				basicThreat[0] = newWarning;
+			}
+		}	
+	}
+	break;
+	case(6):
+	{
+		isIdle = false;
+		canMove = false; 
+		abilityCounter = 0; 
+		abilityMax = 11;
+		abilityAnim = true; 
+		alarm[8] = 12; //unlock 
+		canCast = false;
+		if (isFacingRight) {
+			targXOne = x+gridWidth;
+			targYOne = y;
+			var gridInst = instance_position(targXOne, targYOne, objGridSpace);
+			if (gridInst != noone) {
+				var newWarning = instance_create_depth(targXOne,targYOne,0,objWarning);
+				newWarning.myLife = 11;
+				newWarning.projectileLife = 3;
+				newWarning.team = team;	
+				basicThreat[0] = newWarning;
+			}
+
+		}
+		else {
+			targXOne = x-gridWidth;
+			targYOne = y;
+			var gridInst = instance_position(targXOne, targYOne, objGridSpace);
+			if (gridInst != noone) {
+				var newWarning = instance_create_depth(targXOne,targYOne,0,objWarning);
+				newWarning.myLife = 11;
+				newWarning.projectileLife = 3;
+				newWarning.team = team;	
+				basicThreat[0] = newWarning;
+			}
+		}
+	}
+	break;
+	case(7):
+	{
+		isIdle = false;
+		canMove = false; 
+		abilityCounter = 0; 
+		abilityMax = 13;
+		abilityAnim = true; 
+		alarm[8] = 14; //unlock 
+		canCast = false;
+		if (isFacingRight) {
+			targXOne = x+gridWidth;
+			targYOne = y;
+			var gridInst = instance_position(targXOne, targYOne, objGridSpace);
+			if (gridInst != noone) {
+				var newWarning = instance_create_depth(targXOne,targYOne,0,objWarning);
+				newWarning.myLife = 13;
+				newWarning.projectileLife = 3;
+				newWarning.team = team;	
+				basicThreat[0] = newWarning;
+			}
+
+		}
+		else {
+			targXOne = x-gridWidth;
+			targYOne = y;
+			var gridInst = instance_position(targXOne, targYOne, objGridSpace);
+			if (gridInst != noone) {
+				var newWarning = instance_create_depth(targXOne,targYOne,0,objWarning);
+				newWarning.myLife = 13;
+				newWarning.projectileLife = 3;
+				newWarning.team = team;	
+				basicThreat[0] = newWarning;
+			}
+		}
+	}
 	//rat paws
 	case(8):
 	{

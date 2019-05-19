@@ -2,7 +2,7 @@
     "id": "c6ec23c5-5482-4ccc-815a-19d42cf33be9",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_samuri_idle",
+    "name": "spr_ogre_idle",
     "For3D": false,
     "HTile": false,
     "VTile": false,

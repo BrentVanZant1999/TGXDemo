@@ -23,7 +23,7 @@ if (isActive) {
 			break;
 			case(5): 
 			{
-				spriteToUse = spr_samuri_idle;
+				spriteToUse = spr_ogre_idle;
 			}
 			break;
 			case(6):
@@ -91,6 +91,39 @@ if (isActive) {
 				}
 				else {
 					draw_sprite_ext(spr_golem_basic,abilityCounter/2,x,y+gridHeight/4,1,1,0,c_white,1);
+				}
+				
+			}
+			break;
+			case(5):
+			{
+				if (isFacingRight) {
+					draw_sprite_ext(spr_ogre_basic,abilityCounter/2,x+10,y+gridHeight/4,-1,1,0,c_white,1);
+				}
+				else {
+					draw_sprite_ext(spr_ogre_basic,abilityCounter/2,x-10,y+gridHeight/4,1,1,0,c_white,1);
+				}
+				
+			}
+			break;
+			case(6):
+			{
+				if (isFacingRight) {
+					draw_sprite_ext(spr_yeti_basic,abilityCounter/2,x,y+gridHeight/4,-1,1,0,c_white,1);
+				}
+				else {
+					draw_sprite_ext(spr_yeti_basic,abilityCounter/2,x,y+gridHeight/4,1,1,0,c_white,1);
+				}
+				
+			}
+			break;
+			case(7):
+			{
+				if (isFacingRight) {
+					draw_sprite_ext(spr_mandrake_basic,abilityCounter/2,x,y+gridHeight/4,-1,1,0,c_white,1);
+				}
+				else {
+					draw_sprite_ext(spr_mandrake_basic,abilityCounter/2,x,y+gridHeight/4,1,1,0,c_white,1);
 				}
 				
 			}
