@@ -9,8 +9,9 @@ isActive = false;
 isIdle = true; 
 isFacingRight = false; 
 invinc = false;
+timing = 0;
 
-alarm[0] = 5; //active alarm 
+alarm[0] = 1; //active alarm 
 idleFrameCounterMax = 15; 
 idleframeCounter = 0; 
 
@@ -24,7 +25,7 @@ abilityTwoMax = 15;
 abilityTwoAnim = false;; 
 
 var myGrid; //gridHolder
-myHealth = 1; 
+myHealth = 2; 
 myShield = 0; 
 mySpeed = 3; // 2 == base speed
 canMove = false; 

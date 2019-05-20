@@ -11,6 +11,7 @@ switch(kit){
 		threeCooldownDef = 0;
 		mySpeed = 4;
 		myHealth = 2; 
+		myTiming = 6;
 	}
 	break; 
 	case(2): 
@@ -20,7 +21,8 @@ switch(kit){
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 3; 
-		myHealth = 3; 
+		myHealth = 2; 
+		myTiming = 6;
 	}
 	break;
 	//shade
@@ -33,6 +35,7 @@ switch(kit){
 		abilityMax = 7; 
 		abilityTwoMax = 15;
 		myHealth = 2; 
+		myTiming = 8;
 	}
 	break;
 	//golem
@@ -42,7 +45,7 @@ switch(kit){
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 8;
-		myHealth = 5; 
+		myHealth = 3; 
 	}
 	break;
 	//ogre
@@ -62,7 +65,7 @@ switch(kit){
 		twoCooldownDef = 120; 
 		threeCooldownDef = 0;
 		mySpeed = 8;
-		myHealth = 5; 
+		myHealth = 3; 
 	}
 	break;
 	//mandrake

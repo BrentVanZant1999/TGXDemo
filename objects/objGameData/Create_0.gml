@@ -9,6 +9,10 @@ mgDepth = 50;
 hasSwitch = 0; 
 
 
+playerOne = noone; 
+playerTwo = noone; 
+playerOneTarget = noone; 
+playerOneTarget = noone;
 
 p1_movement_inputs[0] = ord("D");
 p1_movement_inputs[1] = ord("W");
