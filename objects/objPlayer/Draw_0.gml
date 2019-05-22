@@ -1,5 +1,57 @@
 if (isActive) {
-	if (isIdle) {
+	if (isHit) {
+		switch(kit){
+			case(1):
+				{
+					spriteToUse = spr_goblin_hit;
+				}
+			break; 
+			case(2):
+			{
+				spriteToUse = spr_wolf_hit;
+			}
+			break; 
+			case(3):
+			{
+				spriteToUse = spr_shade_hit;
+			}
+			break; 
+			case(4):
+			{
+				spriteToUse = spr_golem_hit;
+			}
+			break; 
+			case(5):
+			{
+				spriteToUse = spr_ogre_hit;
+			}
+			break; 
+			case(6):
+			{
+				spriteToUse = spr_yeti_hit;
+			}
+			break;
+			case(7):
+			{
+				spriteToUse = spr_mandrake_hit;
+			}
+			break;
+			case(8):
+			{
+				spriteToUse = spr_rat_hit;
+			}
+			break; 
+		}
+		if (isFacingRight) {
+			draw_sprite_ext(spriteToUse,alarm[9]/4,x,y+gridHeight/4,-1,1,0,c_white,0.8);
+			draw_sprite_ext(spriteToUse,alarm[9]/4,x,y+gridHeight/4,-1,1,0,c_red,0.4);
+		}
+		else {
+			draw_sprite_ext(spriteToUse,alarm[9]/4,x,y+gridHeight/4,1,1,0,c_white,0.8);
+			draw_sprite_ext(spriteToUse,alarm[9]/4,x,y+gridHeight/4,1,1,0,c_red,0.4);			
+		}
+	}
+	else if (isIdle) {
 		switch(kit){
 			case(1):
 			{

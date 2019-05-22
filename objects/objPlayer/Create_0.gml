@@ -10,7 +10,7 @@ isIdle = true;
 isFacingRight = false; 
 invinc = false;
 timing = 0;
-
+isHit =  false; 
 alarm[0] = 1; //active alarm 
 idleFrameCounterMax = 15; 
 idleframeCounter = 0; 
@@ -24,6 +24,7 @@ abilityTwoCounter = 0;
 abilityTwoMax = 15;
 abilityTwoAnim = false;; 
 
+baseDepth = 1000;
 var myGrid; //gridHolder
 myHealth = 2; 
 myShield = 0; 

@@ -164,3 +164,4 @@ if (isActive) {
 		}
 	}
 }
+depth = baseDepth - y;

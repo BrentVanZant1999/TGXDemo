@@ -17,6 +17,8 @@ if (isActive) {
 			overlayY = inst.y; 
 			var overlay = instance_create_depth(overlayX, overlayY, inst.depth-10,objOverlay);
 			overlay.team = team;
+			overlay.isProjectile = true; 
+			overlay.projectileBound = id; 
 		}
 	}
 }

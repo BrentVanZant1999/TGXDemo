@@ -1,10 +1,19 @@
 {
-    "id": "cca513fa-2c88-4cd2-9872-70bad95d896c",
+    "id": "1fba6b94-f75c-42a4-a654-08bf6889c99c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objMeleeattack",
+    "name": "objCooldown",
     "eventList": [
-        
+        {
+            "id": "5927c675-8aa7-4360-b0ec-f78ee695a345",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1fba6b94-f75c-42a4-a654-08bf6889c99c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

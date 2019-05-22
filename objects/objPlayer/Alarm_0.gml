@@ -12,6 +12,7 @@ switch(kit){
 		mySpeed = 4;
 		myHealth = 2; 
 		myTiming = 6;
+		baseDepth =-1004; 
 	}
 	break; 
 	case(2): 
@@ -23,6 +24,7 @@ switch(kit){
 		mySpeed = 3; 
 		myHealth = 2; 
 		myTiming = 6;
+		baseDepth =-1003; 
 	}
 	break;
 	//shade
@@ -36,6 +38,7 @@ switch(kit){
 		abilityTwoMax = 15;
 		myHealth = 2; 
 		myTiming = 8;
+		baseDepth =-1003; 
 	}
 	break;
 	//golem
@@ -46,6 +49,7 @@ switch(kit){
 		threeCooldownDef = 0;
 		mySpeed = 8;
 		myHealth = 3; 
+		baseDepth =-1001; 
 	}
 	break;
 	//ogre
@@ -56,6 +60,7 @@ switch(kit){
 		threeCooldownDef = 0;
 		mySpeed = 5;
 		myHealth = 3; 
+		baseDepth =-1003; 
 	}
 	break;
 	//yeti
@@ -66,6 +71,7 @@ switch(kit){
 		threeCooldownDef = 0;
 		mySpeed = 8;
 		myHealth = 3; 
+		baseDepth =-1001; 
 	}
 	break;
 	//mandrake
@@ -76,6 +82,7 @@ switch(kit){
 		threeCooldownDef = 0;
 		mySpeed = 4;
 		myHealth = 1; 
+		baseDepth =-1005; 
 	}
 	break;
 	//rat
@@ -86,6 +93,7 @@ switch(kit){
 		threeCooldownDef = 0;
 		mySpeed = 2;
 		myHealth = 1; 
+		baseDepth =-999; 
 	}
 	break;
 }
