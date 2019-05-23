@@ -39,8 +39,8 @@ threeVal = -1;
 
 oneReady = true;
 twoReady = true; 
-threeReady = false; 
-threeCharge = 0; 
+threeReady = true; 
+fourReady = false; 
 
 oneCooldownDef = 0;
 twoCooldownDef = 0; 

@@ -64,6 +64,7 @@ if (isActive) {
 					case(2):
 					{
 						if (threeReady) {
+							handleThreeCast(kit,team); 
 						}
 					}
 					break;
@@ -137,6 +138,7 @@ if (isActive) {
 					case(2):
 					{
 						if (threeReady) {
+							handleThreeCast(kit,team); 
 						}
 					}
 					break;

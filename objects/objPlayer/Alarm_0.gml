@@ -8,7 +8,7 @@ switch(kit){
 	{		
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 4;
 		myHealth = 2; 
 		myTiming = 6;
@@ -20,7 +20,7 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 3; 
 		myHealth = 2; 
 		myTiming = 6;
@@ -32,7 +32,7 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 8; 
 		abilityMax = 7; 
 		abilityTwoMax = 15;
@@ -46,7 +46,7 @@ switch(kit){
 	{
 		oneCooldownDef = 25;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 8;
 		myHealth = 3; 
 		baseDepth =-1001; 
@@ -57,7 +57,7 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 5;
 		myHealth = 3; 
 		baseDepth =-1003; 
@@ -68,7 +68,7 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 8;
 		myHealth = 3; 
 		baseDepth =-1001; 
@@ -79,7 +79,7 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 4;
 		myHealth = 1; 
 		baseDepth =-1005; 
@@ -90,7 +90,7 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 2;
 		myHealth = 1; 
 		baseDepth =-999; 
