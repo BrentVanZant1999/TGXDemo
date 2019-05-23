@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "24b851db-9d23-43aa-b308-605a9379572d",
+            "Value": {
+                "id": "a3397241-922c-423f-a6ba-7dd518fdbd24",
+                "resourcePath": "objects\\objRainCreator\\objRainCreator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2552dde3-32c0-47e2-b099-ea27ae0111e8",
             "Value": {
                 "id": "5a90d7d9-7cf9-481c-9f78-545458f9db5b",
@@ -332,6 +340,14 @@
                 "id": "60786b98-f4a2-4a06-be79-0bc44e98d546",
                 "resourcePath": "sprites\\spr_wolf_attack\\spr_wolf_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55e40a0d-b104-4b07-8bf0-8678d66a98b7",
+            "Value": {
+                "id": "b0e7ec6a-1757-430a-97ef-36af8bb32853",
+                "resourcePath": "objects\\objShadowRain\\objShadowRain.yy",
+                "resourceType": "GMObject"
             }
         },
         {
