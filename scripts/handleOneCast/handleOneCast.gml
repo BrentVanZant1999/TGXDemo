@@ -122,7 +122,6 @@ switch(classCast){
 	{
 		//Shadow Blast 
 		isIdle = false;
-		alarm[7] = 6; //actual ball spawn
 		canMove = false; 
 		abilityCounter = 0; 
 		abilityMax = 7;

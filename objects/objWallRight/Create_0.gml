@@ -12,7 +12,7 @@ x = xStart;
 
 
 
-depth = -400;
+depth = -4000;
 
 
 wallPieceHeight = 128;

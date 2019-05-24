@@ -60,14 +60,24 @@ switch(classCast){
 				
 			}
 		}
-	    var newWarning = instance_create_depth(targX,targY, 0, objWarning);
-		newWarning.team = team; 
-		newWarning.myLife = 14;
-		abilityTwoCounter = 0; 
-		abilityTwoMax = 12;
-		abilityTwoAnim = true; 
-		invinc = true;
-		alarm[6] = 14; //unlock
+		if (hasFound == true) {
+		    var newWarning = instance_create_depth(targX,targY, 0, objWarning);
+			newWarning.team = team; 
+			newWarning.myLife = 14;
+			abilityTwoCounter = 0; 
+			abilityTwoMax = 12;
+			abilityTwoAnim = true; 
+			invinc = true;
+			alarm[6] = 14; //unlock
+		}
+		else {
+			isIdle = true;
+			canMove = true; 
+			canCast = true; 
+			abilityTwoAnim = false; 
+			invinc = false;
+			alarm[6] = -1;
+		}
 	}
 	break;	
 	//golem quake shards

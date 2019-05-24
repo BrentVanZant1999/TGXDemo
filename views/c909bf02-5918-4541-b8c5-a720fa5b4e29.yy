@@ -5,8 +5,11 @@
     "name": "c909bf02-5918-4541-b8c5-a720fa5b4e29",
     "children": [
         "853745a8-d22b-46d9-aa7a-6b128bf25bd3",
+        "55e40a0d-b104-4b07-8bf0-8678d66a98b7",
+        "dbf6c379-52e5-4e4a-b8f0-894b6937b7f3",
         "6c647ea8-d46b-4315-aea1-696218dae6c1",
-        "cca513fa-2c88-4cd2-9872-70bad95d896c"
+        "11ff2548-098b-4efa-9e9f-3c2a25461608",
+        "24b851db-9d23-43aa-b308-605a9379572d"
     ],
     "filterType": "GMObject",
     "folderName": "grpProjectiles",

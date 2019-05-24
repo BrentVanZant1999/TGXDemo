@@ -1,36 +1,42 @@
-switch (kit){
-	case(1):
-	{
+//three ability unlock
+canCast = true; 
+canMove = true; 
+abilityAnim = false; 
+isIdle = true;
+
+basicThreat[0] = noone;
+basicThreat[1] = noone;
+basicThreat[2] = noone;
+basicThreat[3] = noone;
+basicThreat[4] = noone;
+basicThreat[5] = noone;
+basicThreat[6] = noone;
+basicThreat[7] = noone;
+basicThreat[8] = noone;
+
+if (kit == 3) {
 		if (isFacingRight) { 
-			var slashWolf = instance_create_depth(x+gridWidth,y,0,objWolfSlash); 
-			slashWolf.myDamage = 10;
-			slashWolf.team = team;
-			slashWolf.isFacingRight = true; 
-		}
-		else {
-			var slashWolf = instance_create_depth(x-gridWidth,y,0,objWolfSlash); 
-			slashWolf.myDamage = 10;
-			slashWolf.team = team;
-			slashWolf.isFacingRight = false; 
-		}
-		
-	}
-	case(3):
-	{
-		if (isFacingRight) { 
-			var bullet = instance_create_depth(x+16,y,-12,objShadowBlast); 
-			bullet.mySpeed = 24;
-			bullet.myDamage = 10;
+			var bullet = instance_create_depth(x+16,y+gridHeight,-12,objShadeThrow); 
+			bullet.mySpeed = 30;
 			bullet.team = team;
 			bullet.isFacingRight = true; 
+			bullet.depth = depth +gridHeight;
+			var bullet2 = instance_create_depth(x+16,y-gridHeight,-12,objShadeThrow); 
+			bullet2.mySpeed = 30;
+			bullet2.team = team;
+			bullet2.isFacingRight = true; 
+			bullet2.depth = depth -gridHeight;
 		}
 		else { 
-			var bullet = instance_create_depth(x-16,y,-12,objShadowBlast); 
-			bullet.mySpeed = -24;
-			bullet.myDamage = 10; 
+			var bullet = instance_create_depth(x+16,y+gridHeight,-12,objShadeThrow); 
+			bullet.mySpeed = -30;
 			bullet.team = team; 
 			bullet.isFacingRight = false; 
+			bullet.depth = depth +gridHeight;
+			var bullet2 = instance_create_depth(x+16,y-gridHeight,-12,objShadeThrow); 
+			bullet2.mySpeed = -30;
+			bullet2.team = team; 
+			bullet2.isFacingRight = false; 
+			bullet2.depth = depth -gridHeight;
 		}
-	}
-	break;
 }

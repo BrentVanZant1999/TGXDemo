@@ -6,3 +6,4 @@ myTiming =20;
 hitAnimationCounter = 0;
 hitAnimation = false;
 alarm[0]= 2;
+depth = -2000;

@@ -93,7 +93,7 @@ for (var a = 0; a < 8; a++ ) {
 			modelVal.x = x + wallWidth/2+20;
 			modelVal.y = room_height/2 - 20-150; 
 			modelVal.myAlpha = 0.6; 
-			modelVal.depth = -402;
+			modelVal.depth = -4002;
 			modelVal.xScale = 1.2; 
 			modelVal.yScale = 1.2; 
 		}
@@ -102,7 +102,7 @@ for (var a = 0; a < 8; a++ ) {
 			modelVal.x = x + wallWidth/2+20;
 			modelVal.y = room_height/2 - 20-50; 
 			modelVal.myAlpha = 0.6; 
-			modelVal.depth = -403;
+			modelVal.depth = -4003;
 			modelVal.xScale = 1.2; 
 			modelVal.yScale = 1.2; 
 		}
@@ -111,7 +111,7 @@ for (var a = 0; a < 8; a++ ) {
 			modelVal.x = x + wallWidth/2+20;
 			modelVal.y = room_height/2 + 60; 
 			modelVal.myAlpha = 1; 
-			modelVal.depth = -404;
+			modelVal.depth = -4004;
 			modelVal.xScale = 1.4; 
 			modelVal.yScale = 1.4; 
 		}
@@ -121,7 +121,7 @@ for (var a = 0; a < 8; a++ ) {
 			modelVal.x = x + wallWidth/2+20;
 			modelVal.y = room_height/2 - 2+170; 
 			modelVal.myAlpha = 0.6; 
-			modelVal.depth = -402;
+			modelVal.depth = -4002;
 			modelVal.xScale = 1.2; 
 			modelVal.yScale = 1.2; 
 		}
@@ -131,7 +131,7 @@ for (var a = 0; a < 8; a++ ) {
 			modelVal.x = x + wallWidth/2+20;
 			modelVal.y = room_height/2 + 260; 
 			modelVal.myAlpha = 0.6; 
-			modelVal.depth = -403;
+			modelVal.depth = -4003;
 			modelVal.xScale = 1.2; 
 			modelVal.yScale = 1.2; 
 		}

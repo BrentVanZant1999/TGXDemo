@@ -8,10 +8,11 @@ switch(kit){
 	{		
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 4;
 		myHealth = 2; 
 		myTiming = 6;
+		baseDepth =-1004; 
 	}
 	break; 
 	case(2): 
@@ -19,10 +20,11 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 3; 
 		myHealth = 2; 
 		myTiming = 6;
+		baseDepth =-1003; 
 	}
 	break;
 	//shade
@@ -30,12 +32,13 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 8; 
 		abilityMax = 7; 
 		abilityTwoMax = 15;
 		myHealth = 2; 
 		myTiming = 8;
+		baseDepth =-1003; 
 	}
 	break;
 	//golem
@@ -43,9 +46,10 @@ switch(kit){
 	{
 		oneCooldownDef = 25;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 8;
 		myHealth = 3; 
+		baseDepth =-1001; 
 	}
 	break;
 	//ogre
@@ -53,9 +57,10 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 5;
 		myHealth = 3; 
+		baseDepth =-1003; 
 	}
 	break;
 	//yeti
@@ -63,9 +68,10 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 8;
 		myHealth = 3; 
+		baseDepth =-1001; 
 	}
 	break;
 	//mandrake
@@ -73,9 +79,10 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 4;
 		myHealth = 1; 
+		baseDepth =-1005; 
 	}
 	break;
 	//rat
@@ -83,9 +90,10 @@ switch(kit){
 	{
 		oneCooldownDef = 20;
 		twoCooldownDef = 120; 
-		threeCooldownDef = 0;
+		threeCooldownDef = 100;
 		mySpeed = 2;
 		myHealth = 1; 
+		baseDepth =-999; 
 	}
 	break;
 }

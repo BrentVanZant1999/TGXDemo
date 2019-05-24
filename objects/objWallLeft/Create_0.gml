@@ -22,7 +22,7 @@ for (var q = 1; q < 8; q++ ) {
 y = 0
 x = xStart;
 
-depth = -400;
+depth = -4000;
 
 
 wallPieceHeight = 128;
