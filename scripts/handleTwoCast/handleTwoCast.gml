@@ -1,4 +1,5 @@
 //handleTwoCast(myClass,myTeam); 
+//urgay
 classCast = argument0;
 teamCast = argument1; 
 
@@ -22,6 +23,8 @@ switch(classCast){
 	{
 		//TODO EDGE case where cant tele
 		//Shadow Blast 
+		destSpotX = x;
+		destSpotY = y;
 		isIdle = false;
 		canMove = false; 
 		canCast = false; 
@@ -64,12 +67,15 @@ switch(classCast){
 		    var newWarning = instance_create_depth(targX,targY, 0, objWarning);
 			newWarning.team = team; 
 			newWarning.myLife = 14;
+			newWarning.isProjectile = false; 
+			newWarning.projectileBound = noone; 
 			abilityTwoCounter = 0; 
 			abilityTwoMax = 12;
-			abilityTwoAnim = true; 
+			abilityTwoAnim = true;  
 			invinc = true;
 			alarm[6] = 14; //unlock
 		}
+		//urgay
 		else {
 			isIdle = true;
 			canMove = true; 

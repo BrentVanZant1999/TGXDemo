@@ -38,7 +38,7 @@ switch(kit){
 		abilityTwoMax = 15;
 		myHealth = 2; 
 		myTiming = 8;
-		baseDepth =-1003; 
+		baseDepth =-998; 
 	}
 	break;
 	//golem
