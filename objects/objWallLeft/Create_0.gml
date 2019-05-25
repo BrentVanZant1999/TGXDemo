@@ -22,6 +22,10 @@ for (var q = 1; q < 8; q++ ) {
 y = 0
 x = xStart;
 
+xPlay = room_width/2;
+yPlay = room_height/8;
+
+
 depth = -4000;
 
 

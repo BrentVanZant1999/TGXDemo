@@ -6,6 +6,8 @@ gridPadding = 0;
 bgDepth = 51;
 mgDepth = 50; 
 
+scoreOne = 0;
+scoreTwo = 0; 
 playerOne = noone; 
 playerTwo = noone; 
 playerOneTarget = noone; 

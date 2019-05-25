@@ -50,3 +50,14 @@ draw_text(xPlay-1,yCreditsTwo-1,creditsTwo);
 draw_set_color(c_white);
 draw_set_font(ft_infoText);
 draw_text(xPlay,yCreditsTwo,creditsTwo);
+
+draw_set_alpha(1);
+draw_set_color(c_black);
+draw_set_font(ft_infoText);
+draw_text(xPlay+1,yCreditsTwo+30+1,"Build = 0.1.4");
+draw_set_color(c_black);
+draw_set_font(ft_infoText);
+draw_text(xPlay-1,yCreditsTwo+30-1,"Build = 0.1.4");
+draw_set_color(c_white);
+draw_set_font(ft_infoText);
+draw_text(xPlay,yCreditsTwo+30,"Build = 0.1.4");

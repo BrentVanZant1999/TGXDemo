@@ -10,7 +10,8 @@ xStart = room_width-wallWidth+200;
 y = 0
 x = xStart;
 
-
+xPlay = room_width/2;
+yPlay = room_height/8;
 
 depth = -4000;
 
