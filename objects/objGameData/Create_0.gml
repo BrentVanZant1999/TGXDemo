@@ -11,6 +11,9 @@ playerTwo = noone;
 playerOneTarget = noone; 
 playerTwoTarget = noone;
 
+playerOneLock = 0;
+playerTwoLock = 0;
+
 p1_movement_inputs[0] = ord("D");
 p1_movement_inputs[1] = ord("W");
 p1_movement_inputs[2] = ord("A");

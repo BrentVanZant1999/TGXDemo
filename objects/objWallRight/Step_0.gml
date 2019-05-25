@@ -68,10 +68,12 @@ if ( canLock == true ) {
 			}
 		}
 	if ( abilsPressed > 0 ) {
-		alarm[2] = 150; 
-		canLock = false; 
-		//locking logic. 
-		createPlayer(2,kitCurrent);
+		if ( kitCurrent != 2 && kitCurrent != 4 && kitCurrent!= 6 && kitCurrent!= 7) {
+			alarm[2] = 150; 
+			canLock = false; 
+			//locking logic. 
+			lockPlayer(2,kitCurrent);
+		}
 	}
 }
 

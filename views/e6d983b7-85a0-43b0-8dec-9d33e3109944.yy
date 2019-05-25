@@ -19,7 +19,8 @@
         "c4813fe3-bc65-4699-82fc-9c31a659b2f0",
         "771fd723-219d-43c9-ba29-fdf7d1d73d7a",
         "2552dde3-32c0-47e2-b099-ea27ae0111e8",
-        "dda6521d-e2c1-4b1e-8f39-cddd665615c8"
+        "dda6521d-e2c1-4b1e-8f39-cddd665615c8",
+        "69a327f8-e65b-412c-bf93-c929ec2c8158"
     ],
     "filterType": "GMSprite",
     "folderName": "grpUi",
