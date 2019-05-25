@@ -17,24 +17,24 @@ basicThreat[8] = noone;
 
 if (kit == 3) {
 		if (isFacingRight) { 
-			var bullet = instance_create_depth(x+16,y+gridHeight,-12,objShadeThrow); 
+			var bullet = instance_create_depth(x+16,y+gridHeight-gridHeight,depth,objShadeThrow); 
 			bullet.mySpeed = 30;
 			bullet.team = team;
 			bullet.isFacingRight = true; 
 			bullet.depth = depth +gridHeight;
-			var bullet2 = instance_create_depth(x+16,y-gridHeight,-12,objShadeThrow); 
+			var bullet2 = instance_create_depth(x+16,y-gridHeight,depth+gridHeight,objShadeThrow); 
 			bullet2.mySpeed = 30;
 			bullet2.team = team;
 			bullet2.isFacingRight = true; 
 			bullet2.depth = depth -gridHeight;
 		}
 		else { 
-			var bullet = instance_create_depth(x+16,y+gridHeight,-12,objShadeThrow); 
+			var bullet = instance_create_depth(x+16,y+gridHeight,depth-gridHeight,objShadeThrow); 
 			bullet.mySpeed = -30;
 			bullet.team = team; 
 			bullet.isFacingRight = false; 
 			bullet.depth = depth +gridHeight;
-			var bullet2 = instance_create_depth(x+16,y-gridHeight,-12,objShadeThrow); 
+			var bullet2 = instance_create_depth(x+16,y-gridHeight,depth+gridHeight,objShadeThrow); 
 			bullet2.mySpeed = -30;
 			bullet2.team = team; 
 			bullet2.isFacingRight = false; 

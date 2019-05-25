@@ -23,3 +23,5 @@ newBar.playerObj = newPlayer;
 
 var newName = instance_create_depth(x,y,-100,objNameBar);
 newName.playerObj = newPlayer;
+
+instance_create_depth(x,y,-5000,objScoreboard);

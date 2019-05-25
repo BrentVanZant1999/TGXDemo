@@ -1,6 +1,7 @@
 basicThreat[0] = noone;
 basicThreat[1] = noone;
 basicThreat[2] = noone;
+poison = 0;
 isDead = false;
 spriteToUse = spr_goblin_idle;
 team = 1; 
@@ -34,7 +35,7 @@ myShield = 0;
 mySpeed = 3; // 2 == base speed
 canMove = false; 
 canCast = false; 
-
+isPoison = false;
 //ability variables 
 oneVal = -1;
 twoVal = -1;

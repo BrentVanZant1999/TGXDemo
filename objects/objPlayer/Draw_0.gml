@@ -314,10 +314,10 @@ if (isActive) {
 			case(5):
 			{				
 				if (isFacingRight) {
-						draw_sprite_ext(spr_rat_dash,ratDash,x,y+gridHeight/4,-1,1,0,c_white,0.7);
+						draw_sprite_ext(spr_ogre_run,goblinDash,x,y+gridHeight/4,-1,1,0,c_white,0.7);
 					}
 				else {
-						draw_sprite_ext(spr_rat_dash,ratDash,x,y+gridHeight/4,1,1,0,c_white,0.7);
+						draw_sprite_ext(spr_ogre_run,goblinDash,x,y+gridHeight/4,1,1,0,c_white,0.7);
 				}	
 			}
 			break;

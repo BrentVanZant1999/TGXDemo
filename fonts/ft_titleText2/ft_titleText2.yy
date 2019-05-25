@@ -1,16 +1,14 @@
 {
     "id": "22fae461-0e10-45b3-86e8-7b1acb406b0e",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "ft_titleText2",
     "AntiAlias": 1,
     "TTFName": "",
-    "ascenderOffset": 5,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Lady Radical",
-    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1438,16 +1436,13 @@
             }
         }
     ],
-    "hinting": 0,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,

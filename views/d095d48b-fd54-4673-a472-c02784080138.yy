@@ -9,7 +9,8 @@
         "aefb7763-22a5-456b-adf7-7e10f8cca8c3",
         "0040167e-8509-4e55-ab94-caed60046bf4",
         "39ff9a90-d794-40b0-9969-22321862d653",
-        "69a5be9a-a891-40d8-b2fb-035165c16873"
+        "69a5be9a-a891-40d8-b2fb-035165c16873",
+        "b3066ac9-8b09-454b-ab55-b2afa2df95e7"
     ],
     "filterType": "GMObject",
     "folderName": "grpControlSchema",

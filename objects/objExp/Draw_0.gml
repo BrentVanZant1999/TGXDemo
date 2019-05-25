@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_bombExplosion,frame,x,y,1,1,10,c_white,1);

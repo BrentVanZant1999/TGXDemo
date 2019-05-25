@@ -14,6 +14,10 @@ if (myHealth < 1 ) {
 	canMove = false;
 }
 if (isActive) {
+	poison++
+	if ( poison > 1 ) {
+		poison = 0;
+	}
 	ratDash++
 	if ( ratDash > 3 ) {
 		ratDash = 0;		
@@ -196,6 +200,13 @@ if (isActive) {
 				alarm[10] = mySpeed; 
 				canMove = false; 
 			}
+		}
+	}
+}
+if (isPoison) {
+	if (poison == 1) {
+		if (myGrid !=noone) {
+			instance_create_depth(myGrid.x,myGrid.y,0,objRatOverlay);
 		}
 	}
 }

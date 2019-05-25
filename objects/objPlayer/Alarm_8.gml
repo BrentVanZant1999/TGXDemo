@@ -10,13 +10,13 @@ basicThreat[2] = noone;
 
 if (kit == 3) {
 		if (isFacingRight) { 
-			var bullet = instance_create_depth(x+16,y,-12,objShadowBlast); 
+			var bullet = instance_create_depth(x+16,y,depth,objShadowBlast); 
 			bullet.mySpeed = 24;
 			bullet.team = team;
 			bullet.isFacingRight = true; 
 		}
 		else { 
-			var bullet = instance_create_depth(x-16,y,-12,objShadowBlast); 
+			var bullet = instance_create_depth(x-16,y,depth,objShadowBlast); 
 			bullet.mySpeed = -24;
 			bullet.team = team; 
 			bullet.isFacingRight = false; 

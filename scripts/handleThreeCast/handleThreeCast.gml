@@ -6,10 +6,11 @@ alarm[4] = threeCooldownDef;
 threeReady = false;
 
 switch(classCast){
-	//Claw
+	//Bomb
 	case(1):
 	{
-	
+		var bomb = instance_create_depth(x,y,depth,objBomb);
+		bomb.team = team;
 	}
 	break;	
 	//Swing
@@ -125,78 +126,60 @@ switch(classCast){
 	//ogre rat dash
 	case(8): 
 	{
-		timing = 0;
-		isIdle = false;
-		canMove = false; 
-		canCast = false; 
-		var hasEnd = false; 
-		var endX = 0;
-		var endY = 0; 
-		if (isFacingRight) {
-			for (var j = 1; j < 4; j++) {
-				if (hasEnd == false ) {
-					targX = x + (j*gridWidth);
-					targY = y; 
-					var inst = instance_position(targX,targY,objGridSpace);
-					if (inst != noone) {
-						if (inst.structure == 0 ) {
-							endX = targX;
-							endY = targY;
-							timing = timing + 4; 
-							newWarning = instance_create_depth(targX,targY,0,objWarning);
-							newWarning.myLife = timing;
-							newWarning.projectileLife = 4;
-							newWarning.team = team;
-						}
-						else {
-							hasEnd = true; 
-							j =4; 	
-						}
-					}
-				}
-			}	
+		if (teamCast == 1) {
+			targUlt = objGameData.playerOneTarget;	
 		}
 		else {
-			for (var j = 1; j < 4; j++) {
-				if (hasEnd == false ) {
-					targX = x - (j*gridWidth);
-					targY = y; 
-					var inst = instance_position(targX,targY,objGridSpace);
-					if (inst != noone) {
-						if (inst.structure == 0 ) {
-							endX = targX;
-							endY = targY;
-							timing = timing + 4; 
-							newWarning = instance_create_depth(targX,targY,0,objWarning);
-							newWarning.myLife = timing;
-							newWarning.projectileLife = 4;
-							newWarning.team = team;
-						}
-						else {
-							hasEnd = true; 
-							j =4; 	
-						}
-					}
-				}
-			}	
+			targUlt = objGameData.playerTwoTarget;		
 		}
-		destSpotX = endX;
-		destSpotY = endY;
-		abilityTwoCounter = 0; 
-		abilityTwoMax = timing;
-		abilityTwoAnim = true; 
-		invinc = true;
-		if (timing > 0 ) {
-			alarm[5] = 4;
-			alarm[6] = timing;
+		if (targUlt.x > room_width/2) {
+			xStart = room_width;	
+			rightFacing = false;
 		}
 		else {
-			isIdle = true;
-			canMove = true; 
-			canCast = true; 
-			abilityTwoAnim = false; 
-			invinc = false; 	
-			alarm[3] = 1; 	
+			xStart = 0;
+			rightFacing = true;
+		}
+		targY = targUlt.y;
+		targX = targUlt.x;
+		var chosenSide = choose(0,1);
+		if (chosenSide == 1) {
+			var chooseLoc = instance_place(targX,targY+gridHeight,objGridSpace);
+			if (chooseLoc != noone) {
+				var ghostRat = instance_create_depth(xStart, targY,-500,objGhost);
+				ghostRat.team = team;
+				ghostRat.isFacingRight = rightFacing;
+				var ghostRatTwo = instance_create_depth(xStart, targY+gridHeight,-500,objGhost);
+				ghostRatTwo.team = team;
+					ghostRatTwo.isFacingRight = rightFacing;
+			}
+			else {
+				var ghostRat = instance_create_depth(xStart, targY,-500,objGhost);
+				ghostRat.team = team;
+					ghostRat.isFacingRight = rightFacing;
+				var ghostRatTwo = instance_create_depth(xStart, targY-gridHeight,-500,objGhost);
+				ghostRatTwo.team = team;
+					ghostRatTwo.isFacingRight = rightFacing;
+			}
+		}
+		else {
+			var chooseLoc = instance_place(targX,targY-gridHeight,objGridSpace);
+			if (chooseLoc != noone) {
+				var ghostRat = instance_create_depth(xStart, targY,-500,objGhost);
+				ghostRat.team = team;
+					ghostRat.isFacingRight = rightFacing;
+				var ghostRatTwo = instance_create_depth(xStart, targY-gridHeight,-500,objGhost);
+				ghostRatTwo.team = team;
+					ghostRatTwo.isFacingRight = rightFacing;
+			}
+			else {
+				var ghostRat = instance_create_depth(xStart, targY,-500,objGhost);
+				ghostRat.team = team;
+					ghostRat.isFacingRight = rightFacing;
+				var ghostRatTwo = instance_create_depth(xStart, targY+gridHeight,-500,objGhost);
+				ghostRatTwo.team = team;
+					ghostRatTwo.isFacingRight = rightFacing;
+			}
 		}
 	}
 	break;

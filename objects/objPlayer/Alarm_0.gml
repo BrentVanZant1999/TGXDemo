@@ -8,8 +8,8 @@ switch(kit){
 	{		
 		oneCooldownDef = 20;
 		twoCooldownDef = 90; 
-		threeCooldownDef = 90;
-		fourCooldownDef = 600;
+		threeCooldownDef = 50;
+		fourCooldownDef = 240;
 		mySpeed = 4;
 		myHealth = 2; 
 		myTiming = 6;
@@ -22,7 +22,7 @@ switch(kit){
 		oneCooldownDef = 20;
 		twoCooldownDef = 90; 
 		threeCooldownDef = 60;
-		fourCooldownDef = 10;
+		fourCooldownDef = 300;
 		mySpeed = 8; 
 		abilityMax = 7; 
 		abilityTwoMax = 15;
@@ -37,7 +37,7 @@ switch(kit){
 		oneCooldownDef = 20;
 		twoCooldownDef = 90; 
 		threeCooldownDef = 60;
-		fourCooldownDef = 180;
+		fourCooldownDef = 210;
 		mySpeed = 5;
 		myHealth = 3; 
 		baseDepth =-1003; 
@@ -47,9 +47,9 @@ switch(kit){
 	case(8):
 	{
 		oneCooldownDef = 20;
-		twoCooldownDef = 90; 
-		threeCooldownDef = 150;
-		fourCooldownDef =  570;
+		twoCooldownDef = 60; 
+		threeCooldownDef = 90;
+		fourCooldownDef =  300;
 		mySpeed = 2;
 		myHealth = 1; 
 		baseDepth =-1005; 

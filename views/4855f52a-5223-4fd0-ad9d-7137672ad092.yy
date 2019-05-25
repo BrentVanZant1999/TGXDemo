@@ -6,8 +6,7 @@
     "children": [
         "70a5eebb-718b-4598-bb0b-630e54644f37",
         "4ec9e2ec-785c-4c53-8103-6d8b4208d044",
-        "1872bfe4-bce8-40ff-a6c3-c502556c43e2",
-        "d69f5f13-3552-4ee0-a606-0bba6fa2b224"
+        "1872bfe4-bce8-40ff-a6c3-c502556c43e2"
     ],
     "filterType": "GMSprite",
     "folderName": "grp_mandrake",

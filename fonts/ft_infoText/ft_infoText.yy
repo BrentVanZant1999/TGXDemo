@@ -1,16 +1,14 @@
 {
     "id": "709f1590-9326-43a6-b05d-b0cc76d5dc50",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "ft_infoText",
     "AntiAlias": 1,
     "TTFName": "",
-    "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "MatchupPro",
-    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1438,16 +1436,13 @@
             }
         }
     ],
-    "hinting": 0,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
