@@ -186,7 +186,7 @@
             "Key": "2552dde3-32c0-47e2-b099-ea27ae0111e8",
             "Value": {
                 "id": "5a90d7d9-7cf9-481c-9f78-545458f9db5b",
-                "resourcePath": "sprites\\spr_cooldown\\spr_cooldown.yy",
+                "resourcePath": "sprites\\spr_upper_cooldown\\spr_upper_cooldown.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1044,6 +1044,14 @@
                 "id": "6ff97cc0-7a18-49a7-85e2-4299e131b802",
                 "resourcePath": "objects\\objShadeThrow\\objShadeThrow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dda6521d-e2c1-4b1e-8f39-cddd665615c8",
+            "Value": {
+                "id": "1cd255c3-e076-48de-b4ea-5b3ec6fc03c2",
+                "resourcePath": "sprites\\spr_lower_cooldown\\spr_lower_cooldown.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

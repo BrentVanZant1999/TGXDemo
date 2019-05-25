@@ -1,2 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description constants
+team = 1;
+warningDelay = 15;
+yOffsetSpawn = -280;
+projectileSpeed = 20;
+projectileTiming = 15;
+target = noone; 
+alarm[0] = 1;
+alarm[2] = 150;

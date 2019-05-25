@@ -2,8 +2,8 @@
 classCast = argument0;
 teamCast = argument1; 
 
-alarm[1] = twoCooldownDef; 	
-twoReady = false;
+alarm[4] = threeCooldownDef; 	
+threeReady = false;
 
 switch(classCast){
 	//Claw

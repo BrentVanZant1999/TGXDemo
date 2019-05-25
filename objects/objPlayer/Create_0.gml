@@ -37,18 +37,16 @@ oneVal = -1;
 twoVal = -1;
 threeVal = -1; 
 
-oneReady = true;
-twoReady = true; 
-threeReady = true; 
+oneReady = false;
+twoReady = false; 
+threeReady = false; 
 fourReady = false; 
 
 oneCooldownDef = 0;
 twoCooldownDef = 0; 
 threeCooldownDef = 0;
+fourCooldownDef = 0;
 
-oneCooldown = 0;
-twoCooldown = 0; 
-threeCooldown = 0;
 
 
 
