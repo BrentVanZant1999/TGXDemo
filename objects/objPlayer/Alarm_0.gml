@@ -16,18 +16,6 @@ switch(kit){
 		baseDepth =-1004; 
 	}
 	break; 
-	case(2): 
-	//wolf
-	{
-		oneCooldownDef = 20;
-		twoCooldownDef = 120; 
-		threeCooldownDef = 100;
-		mySpeed = 3; 
-		myHealth = 2; 
-		myTiming = 6;
-		baseDepth =-1003; 
-	}
-	break;
 	//shade
 	case(3):
 	{
@@ -43,49 +31,16 @@ switch(kit){
 		baseDepth =-998; 
 	}
 	break;
-	//golem
-	case(4):
-	{
-		oneCooldownDef = 25;
-		twoCooldownDef = 120; 
-		threeCooldownDef = 100;
-		mySpeed = 8;
-		myHealth = 3; 
-		baseDepth =-1001; 
-	}
-	break;
 	//ogre
 	case(5):
 	{
 		oneCooldownDef = 20;
-		twoCooldownDef = 75; 
-		threeCooldownDef = 90;
-		fourCooldownDef = 300;
+		twoCooldownDef = 90; 
+		threeCooldownDef = 60;
+		fourCooldownDef = 180;
 		mySpeed = 5;
 		myHealth = 3; 
 		baseDepth =-1003; 
-	}
-	break;
-	//yeti
-	case(6):
-	{
-		oneCooldownDef = 20;
-		twoCooldownDef = 120; 
-		threeCooldownDef = 100;
-		mySpeed = 8;
-		myHealth = 3; 
-		baseDepth =-1001; 
-	}
-	break;
-	//mandrake
-	case(7):
-	{
-		oneCooldownDef = 20;
-		twoCooldownDef = 120; 
-		threeCooldownDef = 100;
-		mySpeed = 4;
-		myHealth = 1; 
-		baseDepth =-1005; 
 	}
 	break;
 	//rat

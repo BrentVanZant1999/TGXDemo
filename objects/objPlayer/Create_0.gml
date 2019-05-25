@@ -24,7 +24,9 @@ abilityAnim = false;
 abilityTwoCounter = 0; 
 abilityTwoMax = 15;
 abilityTwoAnim = false;; 
-
+abilityThreeAnim = false; 
+abilityThreeCounter = 0; 
+abilityThreeMax = 15;
 baseDepth = 1000;
 var myGrid; //gridHolder
 myHealth = 2; 
@@ -58,6 +60,7 @@ gridPadding = objGameData.gridPadding;
 
 //rat frames
 ratDash = 0;
+goblinDash = 0;
 //shade tele
 destSpotX = 0;
 destSpotY = 0;

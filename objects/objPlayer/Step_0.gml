@@ -18,6 +18,10 @@ if (isActive) {
 	if ( ratDash > 3 ) {
 		ratDash = 0;		
 	}
+	goblinDash++;
+	if (goblinDash > 5 ) {
+		goblinDash = 0; 
+	}
 	idleframeCounter++; 	
 	if (	idleframeCounter > idleFrameCounterMax ) {
 		idleframeCounter = 0; 

@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "19551c66-0ea4-41fe-b74d-1116de57fb69",
+            "Value": {
+                "id": "d26020c1-4fb7-4c08-ad04-41066ce0df41",
+                "resourcePath": "objects\\objBomb\\objBomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1fba6b94-f75c-42a4-a654-08bf6889c99c",
             "Value": {
                 "id": "485c21ce-6188-4cb2-ac1f-18ca0c072728",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "75d7c6c6-ce5d-4291-a28e-3049b58ba340",
+            "Value": {
+                "id": "8b7ab601-2b18-47de-a373-83a4b169f6ae",
+                "resourcePath": "sprites\\spr_blue_button\\spr_blue_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75de375d-ba34-43a3-afd1-010952cff5df",
             "Value": {
                 "id": "a1b1fe92-b63b-4e90-9df2-6a2892de0676",
@@ -659,6 +675,14 @@
             "Value": {
                 "id": "c22c2519-5b8c-4869-9451-83f06c71ea16",
                 "resourcePath": "sprites\\sprShadowRain\\sprShadowRain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8fbe83f6-9c86-4d48-ba56-489ce6637628",
+            "Value": {
+                "id": "82a394d4-a013-46a4-8773-09bdb81048a5",
+                "resourcePath": "sprites\\spr_green_button\\spr_green_button.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -787,6 +811,14 @@
             "Value": {
                 "id": "7e12082b-11eb-49aa-9ace-f9db628a5592",
                 "resourcePath": "sprites\\sprPlayerIndicatorRed\\sprPlayerIndicatorRed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a59d2aab-f035-4e9d-be40-01a26cb23e58",
+            "Value": {
+                "id": "baf2dcd5-d5c1-4357-bf36-c44f9262c47d",
+                "resourcePath": "sprites\\spr_yellow_button\\spr_yellow_button.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1100,6 +1132,14 @@
                 "id": "1ca6ec61-3412-4b13-a494-fc4736f67cd9",
                 "resourcePath": "scripts\\movePlayer\\movePlayer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d7a05b83-db03-4cfb-abcf-3049b82aa213",
+            "Value": {
+                "id": "e0d7ccfc-598d-4181-955a-991ba41b1410",
+                "resourcePath": "sprites\\spr_red_button\\spr_red_button.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -3,6 +3,7 @@ canCast = true;
 canMove = true; 
 abilityAnim = false; 
 isIdle = true;
+invinc = false; 
 
 basicThreat[0] = noone;
 basicThreat[1] = noone;
@@ -39,4 +40,19 @@ if (kit == 3) {
 			bullet2.isFacingRight = false; 
 			bullet2.depth = depth -gridHeight;
 		}
+}
+if (kit == 5) {
+		x = destSpotX;
+		y = destSpotY;
+		abilityThreeAnim = false; 
+		myGrid = instance_position(x,y,objGridSpace);
+		if (myGrid.occupied) {
+			myGrid.occupied = true;
+			myGrid.occupiedTwo = true;
+			myGrid.team = team;
+		} else {
+			myGrid.occupied = true;
+			myGrid.team = team;
+		}
+
 }
