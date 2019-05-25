@@ -2,8 +2,8 @@
 classCast = argument0;
 teamCast = argument1; 
 
-alarm[1] = twoCooldownDef; 	
-twoReady = false;
+alarm[1] = fourCooldownDef; 	
+fourReady = false;
 
 switch(classCast){
 	//Claw
@@ -20,8 +20,8 @@ switch(classCast){
 	//Shadow Rain
 	case(3):
 	{
-		//create shadow rain object 
-		//give it player to target.
+		var creator = instance_create_depth(0,0,0,objRainCreator);
+		creator.team = team; 
 	}
 	break;	
 	//golem quake shards
@@ -31,7 +31,7 @@ switch(classCast){
 		
 	}
 	break;
-	//ogre whirlwind
+	//ogre teleport
 	case(5): 
 	{
 		

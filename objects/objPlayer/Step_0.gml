@@ -1,3 +1,18 @@
+if (myHealth < 1 ) {
+	with (objOverlay) {
+		instance_destroy();
+	}
+	with (objWarning) {
+		instance_destroy();
+	}
+	with (objRainCreator) {
+		instance_destroy();
+	}
+	isDead = true; 
+	deadCounter++; 
+	canCast = false;
+	canMove = false;
+}
 if (isActive) {
 	ratDash++
 	if ( ratDash > 3 ) {
@@ -68,6 +83,13 @@ if (isActive) {
 						}
 					}
 					break;
+					case(3):
+					{
+						if (fourReady) {
+							handleFourCast(kit,team); 
+						}
+					}
+					break;
 				}
 			}
 		}
@@ -86,7 +108,7 @@ if (isActive) {
 			}
 			if ( amountPressed == 1 ) {
 				movePlayer(pressed+1,1);
-				alarm[0] = mySpeed; 
+				alarm[10] = mySpeed; 
 				canMove = false; 
 			}
 		}
@@ -142,6 +164,13 @@ if (isActive) {
 						}
 					}
 					break;
+					case(3):
+					{
+						if (fourReady) {
+							handleFourCast(kit,team); 
+						}
+					}
+					break;
 				}
 			}
 		}
@@ -160,7 +189,7 @@ if (isActive) {
 			}
 			if ( amountPressed == 1 ) {
 				movePlayer(pressed+1,1); 
-				alarm[0] = mySpeed; 
+				alarm[10] = mySpeed; 
 				canMove = false; 
 			}
 		}

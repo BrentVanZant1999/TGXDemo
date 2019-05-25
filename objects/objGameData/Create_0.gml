@@ -9,7 +9,7 @@ mgDepth = 50;
 playerOne = noone; 
 playerTwo = noone; 
 playerOneTarget = noone; 
-playerOneTarget = noone;
+playerTwoTarget = noone;
 
 p1_movement_inputs[0] = ord("D");
 p1_movement_inputs[1] = ord("W");
@@ -19,6 +19,8 @@ p1_movement_inputs[3] = ord("S");
 p1_ability_inputs[0] = ord("Z");
 p1_ability_inputs[1] = ord("X");
 p1_ability_inputs[2] = ord("C");
+p1_ability_inputs[3] = ord("V");
+
 
 p2_movement_inputs[0] = vk_right;
 p2_movement_inputs[1] = vk_up;
@@ -28,3 +30,4 @@ p2_movement_inputs[3] = vk_down;
 p2_ability_inputs[0] = ord("I");
 p2_ability_inputs[1] = ord("O");
 p2_ability_inputs[2] = ord("P");
+p2_ability_inputs[3] = ord("U");

@@ -1,7 +1,7 @@
 basicThreat[0] = noone;
 basicThreat[1] = noone;
 basicThreat[2] = noone;
-
+isDead = false;
 spriteToUse = spr_goblin_idle;
 team = 1; 
 kit = 1; 
@@ -14,7 +14,8 @@ isHit =  false;
 alarm[0] = 1; //active alarm 
 idleFrameCounterMax = 15; 
 idleframeCounter = 0; 
-
+//dead counters
+deadCounter = -1; 
 //ability one
 abilityCounter = 0; 
 abilityMax = 7; 
@@ -37,18 +38,16 @@ oneVal = -1;
 twoVal = -1;
 threeVal = -1; 
 
-oneReady = true;
-twoReady = true; 
-threeReady = true; 
+oneReady = false;
+twoReady = false; 
+threeReady = false; 
 fourReady = false; 
 
 oneCooldownDef = 0;
 twoCooldownDef = 0; 
 threeCooldownDef = 0;
+fourCooldownDef = 0;
 
-oneCooldown = 0;
-twoCooldown = 0; 
-threeCooldown = 0;
 
 
 
