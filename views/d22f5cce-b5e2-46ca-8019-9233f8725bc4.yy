@@ -7,7 +7,8 @@
         "9b7a5c39-e181-4a0b-b194-11634d941f2e",
         "e72dda77-b774-45ab-b4a2-947fb13c6cfc",
         "c05e374d-4030-41d1-9be8-736a01da8a42",
-        "7ebd38fc-760b-409b-8379-d5d125c39677"
+        "7ebd38fc-760b-409b-8379-d5d125c39677",
+        "2b59664b-7bbf-417c-9863-879d440f71ad"
     ],
     "filterType": "GMSprite",
     "folderName": "grp_rat",

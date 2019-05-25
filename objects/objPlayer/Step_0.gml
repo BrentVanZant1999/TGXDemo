@@ -8,6 +8,10 @@ if (myHealth < 1 ) {
 	with (objRainCreator) {
 		instance_destroy();
 	}
+	isDead = true; 
+	deadCounter++; 
+	canCast = false;
+	canMove = false;
 }
 if (isActive) {
 	ratDash++

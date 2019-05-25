@@ -10,7 +10,8 @@
         "be89edf9-d454-43d2-b72d-447d25489193",
         "32e25fa1-f6d5-4bdd-8be4-5e058461971f",
         "9836bcc0-2e49-4f81-ab21-c3f252a14dbe",
-        "1fba6b94-f75c-42a4-a654-08bf6889c99c"
+        "1fba6b94-f75c-42a4-a654-08bf6889c99c",
+        "376f8c67-7307-43f8-beda-e968647babeb"
     ],
     "filterType": "GMObject",
     "folderName": "grpMenus",

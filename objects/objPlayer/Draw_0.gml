@@ -1,10 +1,75 @@
 if (isActive) {
-	if (isHit) {
-		switch(kit){
+	if (isDead) {
+			switch(kit){
 			case(1):
 				{
-					spriteToUse = spr_goblin_hit;
+					spriteToUse = spr_goblin_die;
+					if (deadCounter > 26){
+						deadCounter = 26;
+					}
 				}
+			break; 
+			case(2):
+				{
+					spriteToUse = spr_wolf_die;
+				}
+			break; 
+			case(3):
+			{
+				spriteToUse = spr_shade_die;
+					if (deadCounter > 29) {
+						deadCounter = 29;
+					}
+			}
+			break; 
+			case(4):
+			{
+				spriteToUse = spr_golem_die;
+			}
+			break; 
+			case(5):
+			{
+				spriteToUse = spr_ogre_die;
+				if (deadCounter > 20) {
+					deadCounter = 20;
+				}
+				
+			}
+			break; 
+			case(6):
+			{
+				spriteToUse = spr_yeti_die;
+			}
+			break;
+			case(7):
+			{
+				spriteToUse = spr_mandrake_die;
+			}
+			break;
+			case(8):
+			{
+				spriteToUse = spr_rat_die;
+					if (deadCounter > 14) {
+						deadCounter = 14;
+					}
+			}
+			break; 
+		}
+		if (isFacingRight) {
+			draw_sprite_ext(spriteToUse,deadCounter/3,x,y+gridHeight/4,-1,1,0,c_white,0.8);
+			draw_sprite_ext(spriteToUse,deadCounter/3,x,y+gridHeight/4,-1,1,0,c_red,0.4);
+		}
+		else {
+			draw_sprite_ext(spriteToUse,deadCounter/3,x,y+gridHeight/4,1,1,0,c_white,0.8);
+			draw_sprite_ext(spriteToUse,deadCounter/3,x,y+gridHeight/4,1,1,0,c_red,0.4);			
+		}
+	}
+	else if (isHit) {
+		switch(kit){
+			case(1):
+			{
+					spriteToUse = spr_goblin_hit;
+			}
 			break; 
 			case(2):
 			{
